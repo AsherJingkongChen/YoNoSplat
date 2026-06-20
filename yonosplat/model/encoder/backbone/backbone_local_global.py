@@ -8,7 +8,7 @@ from typing import Literal
 
 from einops import rearrange
 
-from src.geometry.camera_emb import get_intrinsic_embedding_new
+from yonosplat.geometry.camera_emb import get_intrinsic_embedding_new
 from .dinov2.layers import Mlp, PatchEmbed
 from ..layers.pos_embed import RoPE2D, PositionGetter
 from ..layers.block import BlockRope

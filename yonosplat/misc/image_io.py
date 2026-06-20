@@ -12,7 +12,7 @@ from matplotlib.figure import Figure
 from PIL import Image
 from torch import Tensor
 
-from src.dataset.shims.crop_shim_img import rescale_and_crop_img
+from yonosplat.dataset.shims.crop_shim_img import rescale_and_crop_img
 
 FloatImage = Union[
     Float[Tensor, "height width"],

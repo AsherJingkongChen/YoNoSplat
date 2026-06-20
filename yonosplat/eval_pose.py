@@ -7,10 +7,10 @@ from jaxtyping import install_import_hook
 from omegaconf import DictConfig
 from lightning import Trainer
 
-from src.evaluation.pose_evaluator import PoseEvaluator
-from src.loss import get_losses, LossCfgWrapper
-from src.model.decoder import get_decoder
-from src.model.encoder import get_encoder
+from yonosplat.evaluation.pose_evaluator import PoseEvaluator
+from yonosplat.loss import get_losses, LossCfgWrapper
+from yonosplat.model.decoder import get_decoder
+from yonosplat.model.encoder import get_encoder
 
 # Configure beartype and jaxtyping.
 with install_import_hook(

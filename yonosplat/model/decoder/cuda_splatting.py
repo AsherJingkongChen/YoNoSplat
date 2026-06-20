@@ -2,7 +2,7 @@ from math import isqrt
 from typing import Literal
 
 import torch
-from diff_gaussian_rasterization import (
+from diff_gauss_pose import (
     GaussianRasterizationSettings,
     GaussianRasterizer,
 )

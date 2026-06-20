@@ -14,7 +14,7 @@ from lightning.pytorch.callbacks import LearningRateMonitor, ModelCheckpoint
 from lightning.pytorch.loggers.wandb import WandbLogger
 from omegaconf import DictConfig, OmegaConf
 
-from src.misc.weight_modify import checkpoint_filter_fn_new
+from yonosplat.misc.weight_modify import checkpoint_filter_fn_new
 
 # Configure beartype and jaxtyping.
 with install_import_hook(

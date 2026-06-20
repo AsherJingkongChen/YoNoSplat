@@ -16,7 +16,7 @@ import torch.nn as nn
 from torch.utils.checkpoint import checkpoint
 from torch.nn.init import trunc_normal_
 
-from src.model.encoder.layers.attention import FlashAttention
+from yonosplat.model.encoder.layers.attention import FlashAttention
 from ..layers import Mlp, PatchEmbed, SwiGLUFFNFused, MemEffAttention, NestedTensorBlock as Block
 
 

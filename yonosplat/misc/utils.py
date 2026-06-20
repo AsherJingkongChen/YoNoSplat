@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.distributed as dist
 
-from src.visualization.color_map import apply_color_map_to_image
+from yonosplat.visualization.color_map import apply_color_map_to_image
 
 logger = logging.getLogger(__name__)
 
